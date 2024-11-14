@@ -55,3 +55,13 @@ os = "linux"
     [[onnxruntime_gpu.download]]
     sha256 = "eab891393025edd5818d1aa26a42860e5739fcc49e3ca3f876110ec8736fe7f1"
     url = "https://github.com/microsoft/onnxruntime/releases/download/v1.15.1/onnxruntime-linux-x64-gpu-1.15.1.tgz"
+
+[[onnxruntime_gpu]]
+arch = "arm64"
+git-tree-sha1 = "a8c5e34d9f5b3f2e8d7f701f7bfdc3b92ebf1c3d"
+lazy = true
+os = "macos"
+
+    [[onnxruntime_gpu.download]]
+    sha256 = "df97832fc7907c6677a6da437f92339d84a462becb74b1d65217fcb859ee9460"
+    url = "https://github.com/microsoft/onnxruntime/releases/download/v1.15.1/onnxruntime-osx-arm64-1.15.1.tgz"
